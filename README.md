@@ -4,7 +4,7 @@ A tool which simplifies the visual description of a link in URDF syntax using op
 The meaning of **optimal bounding box** is a bounding box that tightly fits the original mesh of the link - 
 as opposed to an **axis-aligned bounding box** that might be sub-optimal.
 
-The following figure shows an example where the two links of the index finger have been replaced with a simplified representation:
+The following figure shows an example where the two links of the middle finger have been replaced with a simplified representation:
 
 ![image](https://user-images.githubusercontent.com/6014499/227002992-0e841f7c-e9e5-400a-91ab-a3da24b89aae.png)
 
