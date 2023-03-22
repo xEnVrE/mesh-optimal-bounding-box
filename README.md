@@ -6,8 +6,7 @@ as opposed to an **axis-aligned bounding box** that might be sub-optimal.
 
 The following figure shows an example where the two links of the index finger have been replaced with a simplified representation:
 
-![image](https://user-images.githubusercontent.com/6014499/226982292-2656c70d-424c-4a0a-8582-cbb8e574143f.png)
-
+![image](https://user-images.githubusercontent.com/6014499/227002992-0e841f7c-e9e5-400a-91ab-a3da24b89aae.png)
 
 ### Requirements
 - [CGAL](https://www.cgal.org/)
