@@ -75,9 +75,14 @@ int main(int argc, char** argv)
     std::cout << "Sizes of the box are:" << std::endl;
     std::cout << std::fixed << std::setprecision(10) << sizes.transpose() << std::endl;
 
-    std::cout << "The origin of the box is:" << std::endl;
+    std::cout << "Sizes of the cylinder are:" << std::endl;
+    std::cout << "radius = " << std::fixed << std::setprecision(10) << (sizes(0) + sizes(1)) / 2.0 / 2.0 << std::endl;
+    std::cout << "length = " << std::fixed << std::setprecision(10) << sizes(2) << std::endl;
+
+    std::cout << "The origin of the box/cylinder is:" << std::endl;
     std::cout << "xyz = " << std::fixed << std::setprecision(10) << overall_origin.translation().transpose() << std::endl;
     std::cout << "rpy = " << std::fixed << std::setprecision(10) << overall_origin_rpy.transpose() << std::endl;
+
 
     return EXIT_SUCCESS;
 }
